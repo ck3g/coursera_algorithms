@@ -27,7 +27,10 @@ class WeightedQuickUnionUF
   private
 
   def root(item)
-    item = ids[item] while item != ids[item]
+    while item != ids[item]
+      ids[item] = ids[ids[item]] # Path compression approach
+      item = ids[item]
+    end
     item
   end
 end
