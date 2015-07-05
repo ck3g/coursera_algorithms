@@ -1,4 +1,4 @@
-require_relative '../../part1/binary_search'
+require 'part1/binary_search'
 
 RSpec.describe 'Binary search' do
   context 'when sequence is [1, 3, 5, 7, 9, 10]' do

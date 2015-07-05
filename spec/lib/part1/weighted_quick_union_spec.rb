@@ -1,4 +1,4 @@
-require_relative '../../part1/weighted_quick_union'
+require 'part1/weighted_quick_union'
 
 RSpec.describe WeightedQuickUnionUF do
   let(:qu) { WeightedQuickUnionUF.new 5 }

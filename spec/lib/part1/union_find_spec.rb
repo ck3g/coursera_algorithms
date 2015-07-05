@@ -1,4 +1,4 @@
-require_relative '../../part1/union_find'
+require 'part1/union_find'
 
 RSpec.describe QuickFindUF do
   let(:qf) { QuickFindUF.new(5) }

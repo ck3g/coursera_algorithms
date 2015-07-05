@@ -1,4 +1,4 @@
-require_relative '../../part1/quick_union'
+require 'part1/quick_union'
 
 RSpec.describe QuickUnionUF do
   let(:qu) { QuickUnionUF.new 5 }
