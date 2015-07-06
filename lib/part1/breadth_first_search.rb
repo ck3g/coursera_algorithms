@@ -11,7 +11,7 @@ def bfs(s, adj)
         if level[v].nil?
           level[v] = i
           parent[v] = u
-          next_item << v
+          next_level << v
         end
       end
     end
