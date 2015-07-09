@@ -24,3 +24,9 @@
 ## Selection Sort O(n²)
 
 ## Insertion Sort O(n²)
+
+## Shell Sort
+
+### Complexity
+
+O(n³/₂) - for sequence of "3x + 1"
