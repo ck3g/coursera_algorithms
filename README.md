@@ -22,3 +22,5 @@
 
 
 ## Selection Sort O(n²)
+
+## Insertion Sort O(n²)
