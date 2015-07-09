@@ -30,3 +30,5 @@
 ### Complexity
 
 O(n³/₂) - for sequence of "3x + 1"
+
+## Knuth Shuffle O(n)
