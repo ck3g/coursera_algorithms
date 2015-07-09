@@ -20,3 +20,5 @@
 
   O(lg₂n) - depth of any node `x` is at most lg₂n
 
+
+## Selection Sort O(n²)
