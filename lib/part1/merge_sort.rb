@@ -36,4 +36,21 @@ class MergeSort
 
     arr
   end
+
+  def self.bottom_up_sort(arr)
+    n = arr.length
+    sz = 1
+    while sz < n
+      lo = 0
+      while lo < n - sz
+        mid = lo + sz - 1
+        hi = [lo + sz + sz - 1, n - 1].min
+        arr = merge arr, lo, mid, hi
+        lo += sz + sz
+      end
+      sz += sz
+    end
+
+    arr
+  end
 end
