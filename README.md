@@ -34,3 +34,9 @@ O(n³/₂) - for sequence of "3x + 1"
 ## Knuth Shuffle O(n)
 
 ## Merge Sort (N log N)
+
+## QuickSort
+
+Worst case complexity: O(¹/₂N²)
+
+Average case complexity: O(~1.39 Nlg₂N)
