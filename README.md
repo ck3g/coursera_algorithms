@@ -40,3 +40,5 @@ O(n³/₂) - for sequence of "3x + 1"
 Worst case complexity: O(¹/₂N²)
 
 Average case complexity: O(~1.39 Nlg₂N)
+
+## Selection
