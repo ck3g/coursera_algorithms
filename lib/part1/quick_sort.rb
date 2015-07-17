@@ -43,4 +43,36 @@ class QuickSort
 
     arr
   end
+
+  def self.dijskra_3way_sort(arr, lo, hi)
+    return arr if hi < lo
+
+    lt = lo
+    gt = hi
+    v = arr[lo] # comparable
+    i = lo
+
+    while i <= gt
+      cmp = arr[i] <=> v
+      if cmp < 0
+        tmp = arr[lt]
+        arr[lt] = arr[i]
+        arr[i] = tmp
+        lt += 1
+        i += 1
+      elsif cmp > 0
+        tmp = arr[i]
+        arr[i] = arr[gt]
+        arr[gt] = tmp
+        gt -= 1
+      else
+        i += 1
+      end
+    end
+
+    arr = dijskra_3way_sort arr, lo, lt - 1
+    arr = dijskra_3way_sort arr, gt + 1, hi
+
+    arr
+  end
 end

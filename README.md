@@ -41,4 +41,8 @@ Worst case complexity: O(¹/₂N²)
 
 Average case complexity: O(~1.39 Nlg₂N)
 
+### Dijskra 3-way sort
+
+Avoid quadratic time for sorting array with a lot of duplicate keys
+
 ## Selection
