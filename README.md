@@ -46,3 +46,7 @@ Average case complexity: O(~1.39 Nlg₂N)
 Avoid quadratic time for sorting array with a lot of duplicate keys
 
 ## Selection
+
+## Primary Queues
+
+### Binary Heap O(logN)
