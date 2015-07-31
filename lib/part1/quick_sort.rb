@@ -4,7 +4,7 @@ class QuickSort
     j = hi + 1
     while true
       i += 1
-      while arr[i] < arr[lo]
+      while arr[i] && arr[i] < arr[lo]
         i += 1
         break if i == hi
       end
